@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=gm7XAbcUn5Y
   2. Устанавливаем webpack командой
 
     npm install webpack webpack-cli --save-dev
-    npm i -D webpack-dev-server  для запуска сервера webpack
+    npm i -D webpack-dev-server   // для запуска сервера webpack
 
 
 3. В файле package.json  прописать скрипты для запуска сборки webpack
