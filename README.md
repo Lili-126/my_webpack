@@ -136,16 +136,11 @@ module.exports = (env) => {
 
 
 9. Установка style-loader и css-loader sass-loader для того, чтобы добавлять стили css через js
-   <!-- Для scss подключить Watching sass, чтобы скомпилировать css -->
-  <!--  Добавляем автопрефексы для css - postcss-loader -->
 
     npm install --save-dev style-loader
     npm install --save-dev css-loader
     npm i -D sass sass-loader
-    <!-- npm install --save-dev postcss-loader postcss postcss-preset-env
 
-    const postcssPresetEnv = require('postcss-preset-env');
- -->
   module.exports = (env) => {
   return {
     devServer: {
