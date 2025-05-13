@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=gm7XAbcUn5Y
 
 4. Создание файла webpack.config.cjs или webpack.config.js
 
-5.  Конфигурация для сборки файлов js и  создаем файл .browserslistrc для правильной сборки файлов js в разных браузерах(last 2 version   not dead  > 0.5%) Прописываем путь окуда будет браться файл js и куда будет собираться файл js
+5.  Конфигурация для сборки файлов js и  создаем файл .browserslistrc для правильной сборки файлов js в разных браузерах(last 2 version   not dead  > 0.5%) Прописываем путь откуда будет браться файл js и куда будет собираться файл js
 
     const path = require("path");
 
