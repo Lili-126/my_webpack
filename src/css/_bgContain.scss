@@ -1,0 +1,11 @@
+.container {
+  background: url("../images/bg_contain.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: var(--boxShadow);
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
