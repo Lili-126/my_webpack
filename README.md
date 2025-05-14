@@ -190,6 +190,7 @@ module.exports = (env) => {
   npm install --save-dev mini-css-extract-plugin
 
   В webpack.config.cjs создаем переменную
+  
   const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
   module.exports = (env) => {
@@ -212,7 +213,7 @@ module.exports = (env) => {
          }),
          new MiniCssExtractPlugin({
            filename: "css/style.[contenthash].css",
-           chunkFilename: "css/[name].[contenthash].css",
+           chunkFilename: "css/[name][contenthash].css",
          }),
        ],
        module: {
